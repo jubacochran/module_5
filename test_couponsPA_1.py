@@ -236,7 +236,7 @@ print(f"Acceptance Rate for all other bar visitors: {acceptance_rate_others}")
 
 '''
 drivers_with_passengers_and_occupations_bar = df.query("coupon == 'Bar' and passanger != 'Kid(s)' and ~occupation.isin(['farming', 'fishing', 'forestry'])").reset_index()
-print(drivers_with_passengers_and_occupations_bar)
+print(drivers_with_passengers_and_occupations_bar['RestaurantLessThan20'].unique())
 
 
 
