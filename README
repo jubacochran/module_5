@@ -85,3 +85,7 @@ Set 1 (Kids and married): 0.65
 Set 2 (Age 41 or older): 0.73
 Set 3 (Expensive Restaurants, Income ~$100,000K): 0.72
 As a final effort to understand the dataset, I combined the accepted Sets 1-3 of the bar with the accepted Sets 1-3 of the coffee shop. I found that the bar had only slightly more acceptance than the coffee shop, even though the conditions were very different. However, it seems that people love to eat regardless. As long as it's within their budget, they will spend similarly on expensive or cheap restaurants, according to this data plot. (Image at /images/acceptance_rates_combined.png)
+
+Next Steps:
+I found it challenging to visualize data in a way that I could drive solid business decision making. Although this was a high dimensional dataset, I beleive more data is required in order to make a business decision to move forward with this coupon campaign. I beleive we
+need more detailed data or a deeper analysis to arrive at such of a decision. 
