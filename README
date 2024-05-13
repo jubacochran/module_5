@@ -13,7 +13,7 @@ Folder Structure:
 1. Introduction
 Problem Statement: Will the customer accept the coupon?
 
-In general, people were less likely to accept the coupons when considering the entire population. Here are the statistics for the Yes vs. No of the entire population:
+In general, people were likely to accept the coupons when considering the entire population. Here are the statistics for the Yes vs. No of the entire population:
 
 Population proportion of coupon acceptance:
 
@@ -39,6 +39,7 @@ Min: 30.000000
 50th percentile: 80.000000
 75th percentile: 80.000000
 Max: 80.000000
+
 I used theoretical and empirical probability to better understand and visualize the data.
 
 Using a uniform probability distribution method from scipy.stats, I processed the data. You can view the overlaid plot at /images/Uniform_Distribution_PDF.
